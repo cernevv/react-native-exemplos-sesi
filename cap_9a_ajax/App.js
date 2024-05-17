@@ -1,10 +1,9 @@
 import React from 'react';
-import { View, Text, TextInput, StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import UsuarioGithub from './components/UsuarioGithub';
 
-class Evento extends React.Component {
-state = {
-input: 'React Native é demais!'
+export default function App() {
+  return (
+  <UsuarioGithub />
+  );
 }
-}
-
-export default Evento;
